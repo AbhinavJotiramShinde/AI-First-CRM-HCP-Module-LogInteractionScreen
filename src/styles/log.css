@@ -1,0 +1,40 @@
+body {
+  background: #f5f7fb;
+  font-family: Arial, sans-serif;
+}
+
+.layout {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+}
+
+.card {
+  flex: 2;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.assistant {
+  flex: 1;
+  background: #f1f4ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 6px 0 12px;
+  padding: 8px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
